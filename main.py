@@ -9,7 +9,7 @@ CLOSED_EYES_FRAME = 1
 # creating camera object
 
 camera = cv.VideoCapture(0)
-camera2 = cv.VideoCapture(1)
+camera2 = cv.VideoCapture(1) #need second camera(back)
 
 onStatus = False #wheelchair status
 tryActivateStatus = False #try to activate wheelchair status
